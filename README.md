@@ -3,9 +3,9 @@
 It's a bit boring to wait for a long script to complete,
 so it'll be better if someone will wait with you!
 
-[![gif with examples][examples-link]][examples-link]
+[![gif with examples][https://raw.githubusercontent.com/nvbn/we-are-waiting/master/example.gif]][https://youtu.be/QRb5l8AF2O0]
 
-*I don't know why there's an ugly cursor on the gif*
+*I don't know why the gif is so shitty*
 
 ## Installation
 
@@ -24,5 +24,3 @@ Wait for a long script:
 You cna change the speed of *waiting* with `--tick` argument.
 
 ## License MIT
-
-[examples-link]:   https://raw.githubusercontent.com/nvbn/we-are-waiting/master/example.gif
