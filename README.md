@@ -3,7 +3,7 @@
 It's a bit boring to wait for a long script to complete,
 so it'll be better if someone will wait with you!
 
-[![gif with examples][https://raw.githubusercontent.com/nvbn/we-are-waiting/master/example.gif]][https://youtu.be/QRb5l8AF2O0]
+[![gif with example](https://raw.githubusercontent.com/nvbn/we-are-waiting/master/example.gif)](https://youtu.be/QRb5l8AF2O0)
 
 *I don't know why the gif is so shitty*
 
