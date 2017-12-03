@@ -34,16 +34,6 @@ def get_variants():
             for role in range(len(roles[0]) // 2):
                 yield color, gender, role
 
-
-def pairup(b):
-    return [(b[i] << 8 | b[i + 1]) for i in range(0, len(b), 2)]
-
-
-def utf16(c):
-    e = c.encode('utf_16_be')
-    return ''.join(chr(x) for x in pairup(e))
-
-
 code = b'package variants\n\nvar All = [][]string{'
 
 for variant in get_variants():
