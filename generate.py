@@ -34,7 +34,7 @@ def get_variants():
             for role in range(len(roles[0]) // 2):
                 yield color, gender, role
 
-code = b'package variants\n\nvar All = [][]string{'
+code = b'package variants\n\nvar All = [][]string{\n'
 
 for variant in get_variants():
     code += b'\t{\n'
